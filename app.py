@@ -4,6 +4,7 @@ import pandas as pd
 import pytesseract
 import plotly.express as px
 import os
+import time
 # import re
 from collections import Counter
 from pathlib import Path
@@ -145,8 +146,10 @@ if uploaded_file is not None:
     try:
         with zipfile.ZipFile(zip_path, "r") as zip_ref:
             zip_ref.extractall(output_dir)
+            time.sleep(1)
             progress.progress(80)
         zip_path.unlink()
+        time.sleep(1)
         progress.progress(100)
         st.success("✅ ZIP uploaded and extracted successfully.")
     except zipfile.BadZipFile:
@@ -191,7 +194,7 @@ framework_reports = {
     "SCF": scf,
 }
 
-
+time.sleep(60)
 # Show summaries after processing:
 # --- Upload Summaries ---
 
