@@ -29,27 +29,27 @@ st.set_page_config(page_title="Compliance Gap Detector", layout="wide")
 st.markdown("""
     <style>
         html, body, [class*="css"] {
-            font-size: 18px !important;
+            font-size: 24px !important;
         }
 
         h1{
-            font-size = 3em !important;    
+            font-size = 4em !important;    
         }
         
         h2, h3, h4, h5, h6 {
-            font-size: 1.5em !important;
+            font-size: 2em !important;
         }
 
         .stTextInput > div > div > input {
-            font-size: 16px !important;
+            font-size: 18px !important;
         }
 
         .stSelectbox > div > div > div > div {
-            font-size: 16px !important;
+            font-size: 18px !important;
         }
 
         .stDataFrame div {
-            font-size: 16px !important;
+            font-size: 18px !important;
         }
     </style>
 """, unsafe_allow_html=True)
@@ -132,22 +132,50 @@ uploaded_file = st.file_uploader(
 )
 
 if uploaded_file is not None:
+    st.info("Uploading and extracting ZIP file...")
+    progress = st.progress(0)
     output_dir = Path("./data/policies")
     output_dir.mkdir(parents=True, exist_ok=True)
 
     zip_path = output_dir / "temp_upload.zip"
     with open(zip_path, "wb") as f:
         f.write(uploaded_file.read())
+        progress.progress(30)
 
     try:
-        # Unzip the file
         with zipfile.ZipFile(zip_path, "r") as zip_ref:
             zip_ref.extractall(output_dir)
+            progress.progress(80)
         zip_path.unlink()
-        st.success("ZIP uploaded and extracted successfully.")
+        progress.progress(100)
+        st.success("✅ ZIP uploaded and extracted successfully.")
     except zipfile.BadZipFile:
-        st.error("Uploaded file is not a valid ZIP archive.")
+        st.error("❌ Uploaded file is not a valid ZIP archive.")
         st.stop()
+else:
+    st.markdown("<p style='color: gray;'>Only ZIP files are allowed. Upload a compressed archive of your policy PDFs.</p>", unsafe_allow_html=True)
+
+
+# Less attractive
+# if uploaded_file is not None:
+    # st.info("Uploading and extracting ZIP file...")
+    # progress = st.progress(0)
+#     output_dir = Path("./data/policies")
+#     output_dir.mkdir(parents=True, exist_ok=True)
+
+#     zip_path = output_dir / "temp_upload.zip"
+#     with open(zip_path, "wb") as f:
+#         f.write(uploaded_file.read())
+
+#     try:
+#         # Unzip the file
+#         with zipfile.ZipFile(zip_path, "r") as zip_ref:
+#             zip_ref.extractall(output_dir)
+#         zip_path.unlink()
+#         st.success("ZIP uploaded and extracted successfully.")
+#     except zipfile.BadZipFile:
+#         st.error("Uploaded file is not a valid ZIP archive.")
+#         st.stop()
 
 # --- Retrieving reports from results.py ---
 framework_reports = {
@@ -195,17 +223,19 @@ else:
         # Prepare the corresponding PDF filename
         pdf_filename = os.path.splitext(selected_file)[0] + ".pdf"
         
-        # Create PDF from the summary content
+        # # Create PDF from the summary content
         # pdf_output = text_2_pdf.create_pdf_from_text(content, pdf_filename)
 
         # # Provide a download button for the PDF
         # st.download_button(
         #     label="Download PDF of Summary",
         #     data=pdf_output,
-        #     file_name=f"{selected_file}.pdf",  # The name of the file when downloaded
+        #     file_name=f"{selected_file}.pdf",
         #     mime="application/pdf"
         # )
-
+        
+        
+        
 # --- Display Results ---
 if uploaded_file and selected_frameworks:
     print(selected_frameworks)
