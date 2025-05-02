@@ -1,0 +1,46 @@
+This Incident Response Policy outlines DanfeCorp's structured approach to responding to security incidents, aiming to minimize impact, preserve evidence, and ensure rapid recovery of information systems.
+
+**Key Objectives:**
+
+1. Rapidly identify, contain, and mitigate the effects of security incidents.
+2. Preserve evidence for analysis and remediation.
+3. Ensure confidentiality, integrity, and availability of data and systems.
+4. Communicate effectively with stakeholders during the response phase.
+5. Conduct regular reviews to update security measures and policies.
+
+**Incident Response Process:**
+
+1. Reporting: Employees, contractors, and third parties must report suspected security incidents immediately to the Incident Response Team (IRT).
+2. Classification: Incidents will be classified into low, medium, or high severity based on their impact and risk.
+3. Initial Response:
+	* Disconnecting affected systems and disabling access.
+	* Blocking malicious IP addresses and changing passwords.
+	* Applying temporary fixes and controls.
+4. Containment:
+	* Disabling network segments and isolating affected areas.
+	* Monitoring for signs of recurrence or abnormal behavior.
+5. Recovery: Restoring systems from backups, reinstalling software, and monitoring post-recovery.
+6. Post-Incident Review: Conducting a review to assess response effectiveness, identify process gaps, and document lessons learned.
+
+**Incident Response Team (IRT):**
+
+1. Lead the overall response and ensure adherence to the Incident Response Policy.
+2. Handle technical investigation, containment, and eradication.
+3. Provide guidance on legal obligations and ensures regulatory compliance.
+4. Manage internal and external communications, including notifications to affected parties and regulators.
+5. Offer strategic direction and decision-making for significant incidents.
+
+**Compliance and Reporting:**
+
+1. Regulatory Compliance: Adhering to applicable regulatory and industry-specific requirements.
+2. Reporting Obligations: Documenting all incidents in accordance with internal policies and external regulatory requirements.
+
+**Review and Testing:**
+
+1. Regular incident response drills to test the effectiveness of the process.
+2. Reviewing and updating this policy annually or following a major incident to ensure it remains effective and relevant.
+
+**Documentation:**
+
+1. Maintaining an incident log for all incidents, documenting key actions, decisions, and communications.
+2. Preparing a detailed post-incident report for each incident, summarizing the event, response efforts, lessons learned, and recommendations for future improvements.

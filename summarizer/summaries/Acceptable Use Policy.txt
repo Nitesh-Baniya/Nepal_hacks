@@ -1,0 +1,28 @@
+The Acceptable Use Policy (AUP) for DanfeCorp outlines the guidelines and expectations for the use of company technology resources. The policy aims to protect the organization from misuse and unauthorized access to sensitive information.
+
+Key Points:
+
+1. Purpose: Aligns with company values and objectives, protecting the organization from misuse and ensuring authorized use of technology resources.
+2. Scope: Applies to all employees, contractors, consultants, temporary workers, third-party service providers, and other users who have access to DanfeCorp's technology infrastructure.
+3. Acceptable Use Guidelines:
+   - Authorized Use:
+     • Business Use Only: Primary use for legitimate business purposes, with minimal personal use.
+     • Access Control: Users must only access authorized systems and data.
+   - Prohibited Use:
+     • Unauthorized access, malicious activities (e.g., hacking, malware introduction), and creation of inappropriate content.
+     • Unlawful activities like fraud, identity theft, intellectual property violations, or distribution of pirated software.
+4. Additional Guidelines:
+   - Email and Communication Systems: Professional communication only, sensitive information protection, and phishing/social engineering prevention.
+   - Internet and Web Usage: Browsing primarily for business purposes, following company filter policies, and respecting social media guidelines.
+   - Software and Applications: Only approved software installed on company systems, with proper licensing compliance.
+   - Device Security and Usage: Securing devices with passwords or authentication methods, reporting lost or stolen devices, and not connecting personal devices to company systems without explicit approval.
+   - Data Protection and Privacy: Confidentiality of information is a fundamental obligation, requiring users to protect sensitive data.
+5. Monitoring and Enforcement:
+   - System monitoring to ensure compliance and detect misuse.
+   - Audit logs maintained for system access, user activity, and communication traffic review.
+6. Disciplinary Actions: Violations may result in revocation of access, suspension, termination of employment or contracts, and legal action, depending on the severity.
+7. Security Awareness and Training:
+   - Initial training for all users upon joining or significant policy changes.
+   - Refresher training every quarter, with awareness campaigns about emerging threats and best practices.
+
+The Acceptable Use Policy will be reviewed and updated annually or whenever significant changes occur to DanfeCorp's systems, technology, or legal requirements.

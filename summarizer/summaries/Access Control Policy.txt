@@ -1,0 +1,41 @@
+Here is a concise summary of the Access Control Policy:
+
+**Purpose**: The purpose of this policy is to establish protocols and controls to ensure that access to information, systems, and resources at DanfeCorp is granted strictly on the basis of business needs and the principle of least privilege.
+
+**Scope**: This policy applies to all employees, contractors, vendors, and third-party service providers who require access to DanfeCorp's information systems, networks, applications, or any resources that process or store sensitive data.
+
+**Key Principles**:
+
+1. **Least Privilege**: Users are provided only the minimum access necessary to perform their duties.
+2. **Need-to-Know**: Access is granted solely based on business requirements and role-specific needs.
+3. **Separation of Duties**: Critical functions are divided among multiple individuals to minimize conflicts of interest and reduce the risk of error or fraud.
+4. **Role-Based Access Control (RBAC)**: Access rights are assigned according to predefined roles to ensure consistency and streamline management.
+
+**User Access Management**:
+
+1. **Account Creation and Provisioning**: New users are assessed for appropriate access rights, and temporary access is granted only for the duration of their engagement.
+2. **Remote Access Controls**: Remote connections must be made through company-approved VPN services or equivalent secure methods, and endpoint security policies must be followed.
+3. **Access Reviews and Revocation**: Access permissions are reviewed at least annually to ensure alignment with current job roles and business requirements.
+
+**Authentication and Authorization Mechanisms**:
+
+1. **Multi-Factor Authentication (MFA)**: Users accessing sensitive systems must authenticate using at least two factors, including a password plus a one-time passcode.
+2. **Access Control Lists (ACLs)**: Systems maintain ACLs to define which users or groups may access specific resources.
+
+**Monitoring and Logging**:
+
+1. **Audit Logging**: All access events are logged to maintain an audit trail.
+2. **Real-Time Monitoring**: Systems are continuously monitored for signs of unauthorized access, privilege abuse, or other suspicious activities.
+
+**Physical Access Control**: Physical entry to critical infrastructure is restricted to authorized personnel, and all entries are logged.
+
+**Third-Party Access**:
+
+1. **Access Limitations**: Third-party vendors receive access only to the systems and data necessary for their work.
+2. **Contractual Agreements**: All third-party agreements must explicitly outline access restrictions, data protection measures, and security expectations.
+
+**Security Training and Awareness**:
+
+1. **User Awareness and Training**: Regular training is provided on access control principles, secure credential management, and potential security threats.
+
+**Policy Compliance and Enforcement**: Regular audits are conducted to ensure adherence to this policy, and non-compliance may result in disciplinary actions, including revocation of access, suspension, or termination.

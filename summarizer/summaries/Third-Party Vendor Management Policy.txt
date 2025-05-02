@@ -1,0 +1,68 @@
+Here is a concise summary of the Third-Party Vendor Management Policy:
+
+**Purpose and Scope**
+
+The policy establishes a structured framework for managing third-party vendors to ensure DanfeCorp's security, compliance, and operational requirements are met while mitigating risks associated with third-party relationships.
+
+**Roles and Responsibilities**
+
+The policy outlines roles and responsibilities among various teams, including:
+
+* Vendor Management Team: oversees vendor risk assessments, onboarding, and performance monitoring
+* Security Team: conducts security assessments and ensures vendor compliance with DanfeCorp's security policies
+* Procurement Team: verifies that vendors meet business and contractual requirements
+* Legal Team: reviews contracts for inclusion of security, confidentiality, and regulatory compliance clauses
+* Business Unit Owners: manage vendor relationships and ensure adherence to agreed-upon security and performance requirements
+
+**Vendor Classification and Risk Assessment**
+
+Risk assessments include:
+
+* Evaluation of the vendor's security controls and policies
+* Review of regulatory compliance status and industry certifications
+* Assessment of financial stability and operational resilience
+* Examination of past security incidents or breaches
+
+**Vendor Onboarding and Due Diligence**
+
+Before engaging with a vendor, DanfeCorp requires:
+
+* Completion of a security questionnaire and comprehensive risk assessment
+* Review of independent security audits (e.g., penetration tests, certifications)
+* Background checks and financial stability analysis
+* Signing of contracts containing security, confidentiality, and compliance clauses
+* Approval from both the Vendor Management and Security Teams
+
+**Contractual and Compliance Requirements**
+
+All vendor contracts must include:
+
+* Risk Level: critical, high-risk, medium-risk, or low-risk
+* Data Protection and Security Standards: clear requirements for protecting DanfeCorp data
+* Right to Audit: provision for DanfeCorp to conduct audits of vendor security practices
+* Incident Notification: obligation for vendors to report security incidents within a defined timeframe
+* Service Level Agreements (SLAs): defined performance, availability, and security expectations
+* Regulatory Compliance: assurance that vendors adhere to applicable laws and industry standards
+* Data Retention and Deletion: clauses governing the secure handling and disposal of DanfeCorp data
+
+**Ongoing Monitoring and Review**
+
+Regular activities include:
+
+* Annual Security Reviews for high-risk and critical vendors
+* Periodic Risk Assessments
+* Performance Monitoring
+* Security Incident Reporting
+
+**Vendor Offboarding and Termination**
+
+When terminating a vendor relationship, DanfeCorp requires:
+
+* Confirmation of data return or secure deletion
+* Revocation of system and network access
+* A final security assessment to ensure no residual risks remain
+* Proper contract closure and documentation of offboarding activities
+
+**Policy Review and Updates**
+
+The policy shall be reviewed and updated annually or upon significant changes to DanfeCorp's vendor management processes, regulatory requirements, or the security landscape.

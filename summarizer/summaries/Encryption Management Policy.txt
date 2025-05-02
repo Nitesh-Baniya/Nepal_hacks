@@ -1,0 +1,31 @@
+The Encryption Management Policy outlines the standards and processes for managing encryption across all systems, applications, networks, and data at DanfeCorp. The policy aims to ensure the confidentiality, integrity, and security of sensitive and personal data.
+
+Key elements of the policy include:
+
+1. Scope: The policy applies to all IT assets containing or processing sensitive information, including databases, file systems, backup media, cloud storage, and third-party services.
+2. Definitions:
+	* Encryption: Transforming data into a secure format to prevent unauthorized access.
+	* Data at Rest: Data stored on physical or virtual media not actively accessed or transmitted.
+	* Data in Transit: Data being transmitted over a network.
+	* Data in Use: Data being processed or manipulated within a system.
+	* Encryption Key: A string of data used by an algorithm to perform encryption or decryption.
+3. Encryption Requirements:
+	* Data at Rest: All sensitive data must be encrypted when stored, using industry-standard algorithms (e.g., AES-256) and separate key management solutions.
+	* Data in Transit: Secure transmission protocols (e.g., TLS 1.2 or higher for HTTP, IPsec or VPN for private networks) must be used.
+	* Data in Use: Encryption should be applied where feasible, especially in shared or multi-tenant environments; alternative controls like access controls and monitoring must be implemented when full encryption is not possible.
+4. Key Management:
+	* Key Generation: Secure cryptographic algorithms must be used to generate keys in a secure environment.
+	* Key Storage: All encryption keys must be stored in a secure Key Management System (KMS) with access restricted to authorized personnel.
+	* Key Rotation and Expiry: Keys must be rotated regularly (minimum 12 months or immediately after any potential compromise) and have an expiration date; formal policies for key renewal and expiration must be established.
+5. Access Control:
+	* Data Integrity and Non-Repudiation: Secure hashing algorithms and digital signatures must be used to maintain data integrity, and critical transactions involving sensitive data must be digitally signed.
+6. Auditing and Monitoring:
+	* Regular Audits: Encryption practices and key management processes must be audited regularly to ensure compliance.
+	* Log Review: Logs of encryption activities must be generated and reviewed to detect unauthorized access attempts.
+7. Compliance and Legal Requirements:
+	* Regulatory Adherence: Encryption practices must comply with all applicable legal, regulatory, and contractual obligations.
+8. Incident Response: DanfeCorp will activate its Incident Response Plan in the event of an encryption-related security incident to mitigate risks, contain breaches, and ensure secure recovery.
+9. Training and Awareness: All employees and contractors with access to encrypted data or encryption keys must undergo regular training on encryption standards, key management practices, and secure data handling.
+10. Third-Party Services: Any third-party services used for encryption or key management must adhere to DanfeCorp's encryption policies and meet required security standards.
+
+The policy supersedes all previous encryption management guidelines and becomes effective as of the specified date. All departments must align their operations with these requirements within 30 days of the effective date.

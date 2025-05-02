@@ -1,0 +1,516 @@
+Requirement: The organization shall determine external and internal issues that are relevant to its purpose and that affect its ability to achieve the intended outcome(s) of its information security management system. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+**Requirement:**
+The organization shall determine:
+
+a) interested parties that are relevant to the information security management system;
+b) the relevant requirements of these interested parties;
+c) which of these requirements will be addressed through the information security management system.
+
+**Status:** Not Satisfied
+
+**Reason:**
+
+* The requirement is not satisfied because, although the organization has established an "Information Security Committee" to oversee the implementation and ongoing management of the information security program, there is no clear evidence that all identified interested parties have been taken into account.
+* There is also insufficient information about how the relevant requirements of these interested parties will be addressed through the information security management system. The requirement only mentions "security and compliance requirements", but it does not specify which ones or how they will be incorporated into the system.
+
+Note: The investigation mentioned in the evidence is a good starting point, but it is unclear if all identified requirements have been considered in this process.
+
+
+
+
+Requirement: The organization shall determine the boundaries and applicability of the information security management system to establish its scope.
+When determining this scope, the organization shall consider:
+a) the external and internal issues referred to in 4.1;
+b) the requirements referred to in 4.2;
+c) interfaces and dependencies between activities performed by the organization, and those that are performed by other organizations.
+The scope shall be available as documented information. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+**Requirement:**
+The organization shall establish, implement, maintain and continually improve an information security management system, including the processes needed and their interactions, in accordance with the requirements of this document.
+
+**Status:**
+ Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the organization mentions implementing an Information Security Management System (ISMS) based on industry best practices and standards (e.g., ISO 27001), which implies a structured approach to managing information security.
+* Additionally, the policy outlines a systematic approach to identifying, assessing, and mitigating risks associated with information security, which aligns with the requirements of an ISMS.
+* Furthermore, the organization's emphasis on regular evaluations and implementation of controls commensurate with risk levels suggests a commitment to continually improving the ISMS.
+
+
+
+
+**Requirement:**
+Top management shall demonstrate leadership and commitment with respect to the information security management system by:
+
+a) ensuring the information security policy and the information security objectives are established and are compatible with the strategic direction of the organization;
+b) ensuring the integration of the information security management system requirements into the organization's processes;
+c) ensuring that the resources needed for the information security management system are available;
+d) communicating the importance of effective information security management and of conforming to the information security management system requirements;
+e) ensuring that the information security management system achieves its intended outcome(s);
+f) directing and supporting persons to contribute to the effectiveness of the information security management system;
+g) promoting continual improvement; and
+h) supporting other relevant management roles to demonstrate their leadership as it applies to their areas of responsibility.
+
+**Status:**
+Requirement: **Not Satisfied**
+
+**Reason:**
+The requirement is not satisfied because, although there are roles and responsibilities mentioned for maintaining network security (e.g., IT Security Team), there is no direct evidence that top management has demonstrated leadership and commitment with respect to the information security management system. The Information Security Committee's role in overseeing the implementation and ongoing management of the information security program is mentioned, but it does not indicate top management's involvement or leadership.
+
+The absence of specific mention of top management's involvement in establishing and maintaining the information security policy, communicating its importance, or supporting other relevant management roles suggests that this requirement has not been fully addressed.
+
+
+
+
+**Requirement:**
+Top management shall establish an information security policy that:
+a) is appropriate to the purpose of the organization;
+b) includes information security objectives (see 6.2) or provides the framework for setting information security objectives;
+c) includes a commitment to satisfy applicable requirements related to information security;
+d) includes a commitment to continual improvement of the information security management system.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence states that the policy aims to "establish rigorous compliance with relevant laws, regulations and industry standards regarding data protection and information security". This suggests that the organization has taken steps to ensure the policy includes a commitment to satisfy applicable requirements related to information security (clause c).
+* Clause d is also met as the policy implies a systematic approach to continual improvement of the information security management system.
+* Although clauses a, b, e, f, and g are not explicitly evaluated in this evidence, the overall content of the policy appears to be comprehensive and structured.
+
+
+
+
+**Requirement:**
+The organization shall ensure that top management assigns and communicates responsibilities and authorities for roles relevant to information security.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence mentions "Roles and Responsibilities" which lists specific roles such as IT Security Team, Information Security Management System (ISMS), and Information Security Committee. These roles have been assigned responsibilities for maintaining network security.
+* Although the text does not explicitly state that top management has communicated these responsibilities and authorities, it can be inferred that this is implied by the fact that the committee was established to oversee the implementation and ongoing management of the information security program.
+* There is no explicit evidence that top management has formally assigned and communicated these responsibilities and authorities in a clear manner.
+
+
+
+
+**Requirement:**
+The organization shall determine:
+
+a) risks and opportunities that need to be addressed to:
+i) ensure the information security management system can achieve its intended outcome(s);
+ii) prevent, or reduce, undesired effects;
+iii) achieve continual improvement.
+b) actions to address these risks and opportunities; and
+c) how to integrate and implement these actions into its information security management system processes.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the organization has established a systematic approach to identifying, assessing, and mitigating risks associated with information security through regular evaluations and implementation of controls commensurate with risk levels. This suggests that the organization is taking steps to address risks and opportunities.
+* The policy also mentions the IT Security Team conducting investigations and implementing corrective actions as needed, which indicates that the organization has a process in place for addressing identified risks.
+* Additionally, the establishment of an Information Security Committee to oversee the implementation and ongoing management of the information security program suggests that the organization is taking steps to ensure continual improvement.
+
+
+
+
+**Requirement:**
+The organization shall define and apply an information security risk assessment process that:
+
+a) establishes and maintains information security risk criteria that include:
+a) 1) the risk acceptance criteria; and
+a) 2) criteria for performing information security risk assessments;
+b) ensures that repeated information security risk assessments produce consistent, valid and comparable results;
+c) identifies the information security risks:
+c) 1) apply the information security risk assessment process to identify risks associated with the loss of confidentiality, integrity and availability for information within the scope of the information security management system; and
+c) 2) identify the risk owners;
+d) analyses the information security risks:
+d) 1) assess the potential consequences that would result if the risks identified in 6.1.2 c) 1) were to materialize;
+d) 2) assess the realistic likelihood of the occurrence of the risks identified in 6.1.2 c) 1); and
+d) 3) determine the levels of risk;
+e) evaluates the information security risks:
+e) 1) compare the results of risk analysis with the risk criteria established in 6.1.2 a); and
+e) 2) prioritize the analysed risks for risk treatment.
+The organization shall retain documented information about the information security risk assessment process.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence shows that the organization has a systematic approach to identifying, assessing, and mitigating risks associated with information security through regular evaluations and implementation of controls commensurate with risk levels.
+* The use of industry standards such as CVSS (Common Vulnerability Scoring System) to assess vulnerabilities suggests that the organization is taking a structured and consistent approach to risk assessment.
+* Although the policy does not explicitly state how repeated assessments are ensured to produce consistent, valid and comparable results, it implies that this process is in place through the regular evaluations and implementation of controls.
+
+
+
+
+**Requirement:**
+The organization shall define and apply an information security risk treatment process to:
+
+a) select appropriate information security risk treatment options, taking account of the risk assessment results;
+b) determine all controls that are necessary to implement the information security risk treatment option(s) chosen;
+c) compare the controls determined in 6.1.3 b) above with those in Annex A and verify that no necessary controls have been omitted;
+d) produce a Statement of Applicability that contains:
+    d) 1) the necessary controls (see 6.1.3 b) and c));
+    d) 2) justification for their inclusion;
+    d) 3) whether the necessary controls are implemented or not; and
+    d) 4) the justification for excluding any of the Annex A controls.
+e) formulate an information security risk treatment plan; and
+f) obtain risk owners' approval of the information security risk treatment plan and acceptance of the residual information security risks.
+
+**Status:**
+Requirement: Not Satisfied
+
+**Reason:**
+
+* The requirement is not satisfied because there is no explicit mention of defining a formal process for applying an information security risk treatment, selecting controls to implement chosen options, or producing a Statement of Applicability.
+* While the policy mentions "regular evaluations and implementation of controls commensurate with risk levels" and "utilizing technical, administrative, and physical safeguards", it does not provide sufficient detail on how these activities are conducted in a systematic and documented manner.
+* The lack of explicit information on implementing the process, producing a Statement of Applicability, and obtaining risk owners' approval suggests that there is a need for more detailed procedures and documentation to meet this requirement.
+
+
+
+
+**Requirement:**
+The organization shall establish information security objectives at relevant functions and levels.
+The information security objectives shall:
+a) be consistent with the information security policy;
+b) be measurable (if practicable);
+c) take into account applicable information security requirements, and results from risk assessment and risk treatment;
+d) be monitored;
+e) be communicated;
+f) be updated as appropriate;
+g) be available as documented information.
+The organization shall retain documented information on the information security objectives.
+
+**Status:**
+Not Satisfied
+
+**Reason:**
+
+* Although the requirement mentions that the information security policy establishes a systematic approach to identifying and mitigating risks, it does not explicitly state that this approach results in established information security objectives at relevant functions and levels.
+* The evidence only mentions "comprehensive objectives" without providing details on how these objectives are determined or what they entail.
+* There is no direct mention of the organization establishing measurable, consistent, and updated information security objectives.
+
+
+
+
+Requirement: When the organization determines the need for changes to the information security management system, the changes shall be carried out in a planned manner. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+**Requirement:**
+The organization shall determine and provide the resources needed for the establishment, implementation, maintenance and continual improvement of the information security management system.
+
+**Status:** Not Satisfied
+
+**Reason:**
+
+* While the evidence mentions an "Information Security Committee" that will oversee the implementation and ongoing management of the information security program, it does not explicitly state that the organization has determined and provided the necessary resources for its establishment.
+* Although the text mentions "Resources needed", there is no clear indication that these resources have been identified or allocated to support the implementation of the ISMS.
+
+
+
+
+**Requirement:**
+
+The organization shall determine:
+
+a) the necessary competence of person(s) doing work under its control that affects its information security performance;
+b) ensure that these persons are competent on the basis of appropriate education, training, or experience;
+c) where applicable, take actions to acquire the necessary competence, and evaluate the effectiveness of the actions taken; and
+d) retain appropriate documented information as evidence of competence.
+
+**Status:**
+Requirement: Not Satisfied
+
+**Reason:**
+
+* The requirement is not satisfied because while the organization mentions employee awareness training, it does not explicitly address how they determine the necessary competence of person(s) doing work under its control.
+* Although the policy establishes a systematic approach to identifying and mitigating risks associated with information security, it does not directly mention determining the necessary competence or acquiring new skills as needed.
+
+
+
+
+**Requirement:**
+The organization shall ensure that persons doing work under its control are aware of:
+
+a) the information security policy;
+b) their contribution to the effectiveness of the information security management system, including the benefits of improved information security performance; and
+c) the implications of not conforming with the information security management system requirements.
+
+**Status:**
+Requirement: **Satisfied**
+
+**Reason:**
+
+* The requirement is satisfied because the evidence provides clear examples of awareness training for employees, contractors, and third-party vendors through regular "information security training to understand their roles and responsibilities in protecting information".
+* This suggests that the organization has implemented measures to ensure persons doing work under its control are aware of the information security policy.
+* Additionally, the evidence mentions a systematic approach to identifying and mitigating risks associated with information security, which implies that there is an awareness of the implications of not conforming with information security management system requirements.
+
+
+
+
+Requirement: The organization shall determine the need for internal and external communications relevant to the information security management system including:
+a) on what to communicate;
+b) when to communicate;
+c) with whom to communicate;
+d) how to communicate. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+Requirement: General
+The organization's information security management system shall include:
+a) documented information required by this document; and
+b) documented information determined by the organization as being necessary for the effectiveness of the information security management system. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+Requirement: Creating and updating
+When creating and updating documented information the organization shall ensure appropriate:
+a) identification and description (e.g. a title, date, author, or reference number);
+b) format (e.g. language, software version, graphics) and media (e.g. paper, electronic); and
+c) review and approval for suitability and adequacy. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+**Requirement:**
+The organization shall control documented information to ensure it is available and suitable for use, where and when it is needed, and adequately protected (e.g. from loss of confidentiality, improper use, or loss of integrity).
+
+**Status:** Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence outlines security controls and practices designed to protect sensitive data, ensuring compliance with legal, regulatory, and contractual obligations.
+* These practices collectively ensure maintenance of data availability and integrity across the organization, protecting against accidental loss, corruption, or unauthorized modification of critical business information.
+* Although there is no explicit mention of "control of changes" (e.g. version control), the overall emphasis on security controls and data protection suggests that this requirement is being addressed.
+* The evidence also highlights the importance of protecting sensitive information from misuse and unauthorized access, which aligns with the requirement to protect documented information from loss of confidentiality or improper use.
+
+
+
+
+**Requirement:**
+The organization shall plan, implement and control the processes needed to meet requirements, and to implement the actions determined in Clause 6, by:
+
+a) establishing criteria for the processes;
+b) implementing control of the processes in accordance with the criteria.
+Documented information shall be available to the extent necessary to have confidence that the processes have been carried out as planned.
+The organization shall control planned changes and review the consequences of unintended changes, taking action to mitigate any adverse effects, as necessary.
+The organization shall ensure that externally provided processes, products or services that are relevant to the information security management system are controlled.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the policy mentions "regular evaluations and implementation of controls commensurate with risk levels", which implies a systematic approach to identifying, assessing, and mitigating risks.
+* The document also outlines an investigation process (3. Investigation), which suggests that the organization has considered how to control changes and mitigate adverse effects.
+* Although there is no explicit mention of establishing criteria for processes or implementing control in accordance with these criteria, it can be inferred that the policy provides a structured approach to planning, implementing, and controlling processes.
+* Furthermore, the policy ensures documented information is available, which supports the confidence needed in process execution.
+* However, more specific details on how externally provided processes are controlled would strengthen the assessment.
+
+
+
+
+**Requirement:**
+The organization shall perform information security risk assessments at planned intervals or when significant changes are proposed or occur, taking account of the criteria established in 6.1.2 a).
+
+The **Status:** Not Satisfied
+
+**Reason:**
+
+* The requirement is not satisfied because there is no specific evidence that the organization performs information security risk assessments at planned intervals or when significant changes are proposed or occur.
+* Although the policy mentions regular evaluations and implementation of controls, it does not specifically state when these risk assessments should take place.
+
+
+
+
+**Requirement:**
+The organization shall implement the information security risk treatment plan.
+The organization shall retain documented information of the results of the information security risk treatment.
+
+**Status:** Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the policy establishes a systematic approach to identifying, assessing, and mitigating risks associated with information security through regular evaluations and implementation of controls commensurate with risk levels. This implies that the organization has implemented a structured process for treating risks.
+* Additionally, the Risk Management section mentions "Risk Assessment: Regular risk assessments will be conducted to identify potential threats and vulnerabilities to information systems and data." which suggests that the organization is actively working on implementing the risk treatment plan.
+
+However, it is unclear if all identified requirements will be addressed through the information security management system. The document does not explicitly mention retaining documented information of the results of the information security risk treatment, but it does imply that this information will be used to inform future risk assessments and controls.
+
+
+
+
+**Requirement:**
+The organization shall determine:
+
+a) what needs to be monitored and measured, including information security processes and controls;
+b) the methods for monitoring, measurement, analysis and evaluation, as applicable, to ensure valid results. The methods selected should produce comparable and reproducible results to be considered valid;
+c) when the monitoring and measuring shall be performed;
+d) who shall monitor and measure;
+e) when the results from monitoring and measurement shall be analysed and evaluated;
+f) who shall analyse and evaluate these results.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence mentions that the organization has a systematic approach to identifying, assessing, and mitigating risks associated with information security (option 3). This suggests that the organization has identified what needs to be monitored and measured.
+* Option b refers to selecting methods for monitoring and measurement. Although the text does not explicitly mention this requirement, option 3 implies that the organization is already taking steps in this direction.
+* Options c, d, e, and f are related to the process of monitoring and evaluation, which is mentioned in option 3 as part of the overall risk management approach.
+
+The only unclear aspect is if all these details are documented and available as evidence. The policy mentions that "documented information shall be available as evidence of the results", which suggests that some level of documentation exists, but it's not explicitly stated that all specific details (c, d, e, f) are thoroughly documented.
+
+Overall, while some aspects of the requirement might require further clarification or documentation, the evidence suggests that the organization has made significant progress in addressing what needs to be monitored and measured.
+
+
+
+
+**Requirement:**
+The organization shall conduct internal audits at planned intervals to provide information on whether the information security management system:
+a) conforms to
+a) 1) the organization's own requirements for its information security management system;
+a) 2) the requirements of this document;
+b) is effectively implemented and maintained.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence shows that regular network security audits are conducted to ensure compliance with internal policies and regulatory requirements. This implies that the organization has a systematic approach to auditing its information security management system, which aligns with the requirement.
+* Although the text does not explicitly mention the organization's own requirements for its information security management system, the existence of a dedicated Information Security Committee suggests that the organization has identified relevant requirements and processes to be included in its audits.
+* The evidence also shows that regular audits are conducted to ensure compliance with this policy (presumably referring to the organization's internal policies), which indicates effective implementation and maintenance of the information security management system.
+
+
+
+
+Requirement: Internal audit programme
+The organization shall plan, establish, implement and maintain an audit programme(s), including the frequency, methods, responsibilities, planning requirements and reporting.
+When establishing the internal audit programme(s), the organization shall consider the importance of the processes concerned and the results of previous audits.
+The organization shall:
+a) define the audit criteria and scope for each audit;
+b) select auditors and conduct audits that ensure objectivity and the impartiality of the audit process;
+c) ensure that the results of the audits are reported to relevant management;
+Documented information shall be available as evidence of the implementation of the audit programme(s) and the audit results. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+Requirement: General
+Top management shall review the organization's information security management system at planned intervals to ensure its continuing suitability, adequacy and effectiveness. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+**Requirement:**
+Management review shall include consideration of:
+
+a) the status of actions from previous management reviews;
+b) changes in external and internal issues that are relevant to the information security management system;
+c) changes in needs and expectations of interested parties that are relevant to the information security management system;
+d) feedback on the information security performance, including trends in:
+d) 1) nonconformities and corrective actions;
+d) 2) monitoring and measurement results;
+d) 3) audit results;
+d) 4) fulfilment of information security objectives;
+e) feedback from interested parties;
+f) results of risk assessment and status of risk treatment plan;
+g) opportunities for continual improvement.
+
+**Status:**
+Requirement: Satisfied
+
+**Reason:**
+
+* The requirement is satisfied because the evidence shows that the management review includes consideration of various aspects, such as:
+ + Status of actions from previous reviews (evidenced by the policy update process)
+ + Changes in external and internal issues (evidenced by the regular evaluations and implementation of controls)
+ + Feedback from interested parties and results of risk assessment
+* The requirement also mentions "trends in" nonconformities, audit results, and fulfilment of information security objectives, which implies that the organization is actively monitoring and addressing these areas.
+* However, it is unclear if all identified requirements are explicitly stated as part of the management review process.
+
+
+
+
+Requirement: Management review results
+The results of the management review shall include decisions related to continual improvement opportunities and any needs for changes to the information security management system.
+Documented information shall be available as evidence of the results of management reviews. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+Requirement: The organization shall continually improve the suitability, adequacy and effectiveness of the information security management system. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+
+Requirement: When a nonconformity occurs, the organization shall:
+a) react to the nonconformity, and as applicable:
+a) 1) take action to control and correct it;
+a) 2) deal with the consequences;
+b) evaluate the need for action to eliminate the causes of nonconformity, in order that it does not recur or occur elsewhere, by:
+b) 1) reviewing the nonconformity;
+b) 2) determining the causes of the nonconformity; and
+b) 3) determining if similar nonconformities exist, or could potentially occur;
+c) implement any action needed;
+d) review the effectiveness of any corrective action taken; and
+e) make changes to the information security management system, if necessary.
+Corrective actions shall be appropriate to the effects of the nonconformities encountered.
+Documented information shall be available as evidence of:
+f) the nature of the nonconformities and any subsequent actions taken,
+g) the results of any corrective action. 
+ Status: Missing 
+ Reason: 
+ The requirement is missing.
+
+
+
+

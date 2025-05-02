@@ -1,0 +1,53 @@
+Here is a concise summary of the parsed text with high fidelity:
+
+**Software Development Life Cycle (SDLC) Policy**
+
+Approved by DanfeCorp on 03/11/2025.
+
+**Purpose**: This policy establishes a structured framework for software development at DanfeCorp to ensure security, quality, and compliance throughout the Software Development Life Cycle (SDLC).
+
+**Scope**: The policy applies to all software development projects, including internally developed applications, third-party software integrations, and outsourced development efforts. It is applicable to all developers, IT personnel, and project managers involved in software development at DanfeCorp.
+
+**Roles and Responsibilities**
+
+* Software Development Team: Responsible for designing, coding, testing, and maintaining software applications.
+* Security Team: Conducts security reviews, risk assessments, and ensures compliance with security requirements.
+* Project Managers: Oversee development projects and ensure adherence to SDLC phases.
+* Quality Assurance (QA) Team: Conducts software testing and validation.
+* IT Operations: Manages deployment and ongoing maintenance of software applications.
+
+**SDLC Phases**
+
+DanfeCorp follows a structured SDLC framework comprising the following phases:
+
+1. Planning
+2. Requirements Gathering
+3. Design
+4. Development
+5. Testing
+6. Quality Assurance
+7. Deployment
+8. Release & Maintenance
+
+Each phase has specific responsibilities and security requirements.
+
+**Secure Development Practices**
+
+Implementing secure development practices is essential to minimize vulnerabilities in software applications. DanfeCorp emphasizes a "security-first" approach by integrating security considerations from the earliest stages of development through to deployment and maintenance.
+
+**Key Secure Development Practices**
+
+* Implement OWASP secure coding practices
+* Use version control systems for source code management
+* Limit access rights to minimum necessary
+* Regularly update external libraries (dependency management)
+* Maintain an audit trail for all modifications
+* Ensure rollback procedures are in place for critical systems
+
+**Change Management**
+
+All code changes must be reviewed and approved before deployment.
+
+**Policy Review and Updates**
+
+This policy shall be reviewed annually or upon significant changes to software development practices, regulatory requirements, or the security landscape. The security team must approve all updates.
